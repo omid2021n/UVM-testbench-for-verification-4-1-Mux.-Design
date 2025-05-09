@@ -1,0 +1,219 @@
+# KERNEL: UVM_INFO /home/build/vlib1/vlib/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+# KERNEL: ----------------------------------------------------------------
+# KERNEL: UVM-1.2
+# KERNEL: (C) 2007-2014 Mentor Graphics Corporation
+# KERNEL: (C) 2007-2014 Cadence Design Systems, Inc.
+# KERNEL: (C) 2006-2014 Synopsys, Inc.
+# KERNEL: (C) 2011-2013 Cypress Semiconductor Corp.
+# KERNEL: (C) 2013-2014 NVIDIA Corporation
+# KERNEL: ----------------------------------------------------------------
+# KERNEL: 
+# KERNEL:   ***********       IMPORTANT RELEASE NOTES         ************
+# KERNEL: 
+# KERNEL:   You are using a version of the UVM library that has been compiled
+# KERNEL:   with `UVM_NO_DEPRECATED undefined.
+# KERNEL:   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# KERNEL: 
+# KERNEL:   You are using a version of the UVM library that has been compiled
+# KERNEL:   with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+# KERNEL:   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# KERNEL: 
+# KERNEL:       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# KERNEL: 
+# KERNEL: ASDB file was created in location /home/runner/dataset.asdb
+# KERNEL: UVM_INFO @ 0: reporter [RNTST] Running test test...
+# KERNEL: UVM_INFO /home/runner/testbench.sv(252) @ 0: uvm_test_top.e [ENV] Monitor-Scoreboard connection established
+# KERNEL: UVM_INFO /home/runner/testbench.sv(60) @ 0: uvm_test_top.e.a.seqr@@gen [GEN] Data send to Driver a :3 , b :14  , c:6 , d : 9  , sel : 1
+# KERNEL: UVM_INFO /home/runner/testbench.sv(100) @ 0: uvm_test_top.e.a.d [DRV] Trigger DUT a: 3 ,b :  14 , c: 6 , d :  9 , sel :1 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 5000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 3 ,b :  14 , c: 6 , d :  9 , sel :1 ,y :14 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 5000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 3 ,b: 14 ,c: 6 ,d: 9 ,sel: 1
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 5000: uvm_test_top.e.s [SCO] Test Passed :Expected: 14, Got: 14
+# KERNEL: UVM_INFO /home/runner/testbench.sv(60) @ 5000: uvm_test_top.e.a.seqr@@gen [GEN] Data send to Driver a :0 , b :7  , c:11 , d :10  , sel : 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(100) @ 5000: uvm_test_top.e.a.d [DRV] Trigger DUT a: 0 ,b :  7 , c: 11 , d :  10 , sel :2 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 10000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 0 ,b :  7 , c: 11 , d :  10 , sel :2 ,y :11 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 10000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 0 ,b: 7 ,c: 11 ,d: 10 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 10000: uvm_test_top.e.s [SCO] Test Passed :Expected: 11, Got: 11
+# KERNEL: UVM_INFO /home/runner/testbench.sv(60) @ 10000: uvm_test_top.e.a.seqr@@gen [GEN] Data send to Driver a :10 , b :9  , c:5 , d :12  , sel : 0
+# KERNEL: UVM_INFO /home/runner/testbench.sv(100) @ 10000: uvm_test_top.e.a.d [DRV] Trigger DUT a: 10 ,b :  9 , c: 5 , d :  12 , sel :0 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 15000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 10 ,b :  9 , c: 5 , d :  12 , sel :0 ,y :10 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 15000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 10 ,b: 9 ,c: 5 ,d: 12 ,sel: 0
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 15000: uvm_test_top.e.s [SCO] Test Passed :Expected: 10, Got: 10
+# KERNEL: UVM_INFO /home/runner/testbench.sv(60) @ 15000: uvm_test_top.e.a.seqr@@gen [GEN] Data send to Driver a :1 , b :4  , c:4 , d :15  , sel : 3
+# KERNEL: UVM_INFO /home/runner/testbench.sv(100) @ 15000: uvm_test_top.e.a.d [DRV] Trigger DUT a: 1 ,b :  4 , c: 4 , d :  15 , sel :3 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 20000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 1 ,b :  4 , c: 4 , d :  15 , sel :3 ,y :15 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 20000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 1 ,b: 4 ,c: 4 ,d: 15 ,sel: 3
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 20000: uvm_test_top.e.s [SCO] Test Passed :Expected: 15, Got: 15
+# KERNEL: UVM_INFO /home/runner/testbench.sv(60) @ 20000: uvm_test_top.e.a.seqr@@gen [GEN] Data send to Driver a :5 , b :8  , c:8 , d : 3  , sel : 3
+# KERNEL: UVM_INFO /home/runner/testbench.sv(100) @ 20000: uvm_test_top.e.a.d [DRV] Trigger DUT a: 5 ,b :  8 , c: 8 , d :  3 , sel :3 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 25000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 5 ,b :  8 , c: 8 , d :  3 , sel :3 ,y :3 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 25000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 5 ,b: 8 ,c: 8 ,d: 3 ,sel: 3
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 25000: uvm_test_top.e.s [SCO] Test Passed :Expected: 3, Got: 3
+# KERNEL: UVM_INFO /home/runner/testbench.sv(60) @ 25000: uvm_test_top.e.a.seqr@@gen [GEN] Data send to Driver a :6 , b :5  , c:1 , d : 8  , sel : 0
+# KERNEL: UVM_INFO /home/runner/testbench.sv(100) @ 25000: uvm_test_top.e.a.d [DRV] Trigger DUT a: 6 ,b :  5 , c: 1 , d :  8 , sel :0 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 30000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 6 ,b :  5 , c: 1 , d :  8 , sel :0 ,y :6 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 30000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 6 ,b: 5 ,c: 1 ,d: 8 ,sel: 0
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 30000: uvm_test_top.e.s [SCO] Test Passed :Expected: 6, Got: 6
+# KERNEL: UVM_INFO /home/runner/testbench.sv(60) @ 30000: uvm_test_top.e.a.seqr@@gen [GEN] Data send to Driver a :4 , b :11  , c:15 , d :14  , sel : 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(100) @ 30000: uvm_test_top.e.a.d [DRV] Trigger DUT a: 4 ,b :  11 , c: 15 , d :  14 , sel :2 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 35000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 4 ,b :  11 , c: 15 , d :  14 , sel :2 ,y :15 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 35000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 4 ,b: 11 ,c: 15 ,d: 14 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 35000: uvm_test_top.e.s [SCO] Test Passed :Expected: 15, Got: 15
+# KERNEL: UVM_INFO /home/runner/testbench.sv(60) @ 35000: uvm_test_top.e.a.seqr@@gen [GEN] Data send to Driver a :15 , b :10  , c:2 , d : 5  , sel : 1
+# KERNEL: UVM_INFO /home/runner/testbench.sv(100) @ 35000: uvm_test_top.e.a.d [DRV] Trigger DUT a: 15 ,b :  10 , c: 2 , d :  5 , sel :1 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 40000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 15 ,b :  10 , c: 2 , d :  5 , sel :1 ,y :10 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 40000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 15 ,b: 10 ,c: 2 ,d: 5 ,sel: 1
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 40000: uvm_test_top.e.s [SCO] Test Passed :Expected: 10, Got: 10
+# KERNEL: UVM_INFO /home/runner/testbench.sv(60) @ 40000: uvm_test_top.e.a.seqr@@gen [GEN] Data send to Driver a :7 , b :2  , c:10 , d :13  , sel : 1
+# KERNEL: UVM_INFO /home/runner/testbench.sv(100) @ 40000: uvm_test_top.e.a.d [DRV] Trigger DUT a: 7 ,b :  2 , c: 10 , d :  13 , sel :1 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 45000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 7 ,b :  2 , c: 10 , d :  13 , sel :1 ,y :2 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 45000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 7 ,b: 2 ,c: 10 ,d: 13 ,sel: 1
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 45000: uvm_test_top.e.s [SCO] Test Passed :Expected: 2, Got: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(60) @ 45000: uvm_test_top.e.a.seqr@@gen [GEN] Data send to Driver a :12 , b :3  , c:7 , d : 6  , sel : 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(100) @ 45000: uvm_test_top.e.a.d [DRV] Trigger DUT a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 50000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 50000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 50000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 55000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 55000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 55000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 60000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 60000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 60000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 65000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 65000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 65000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 70000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 70000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 70000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 75000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 75000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 75000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 80000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 80000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 80000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 85000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 85000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 85000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 90000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 90000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 90000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 95000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 95000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 95000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 100000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 100000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 100000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 105000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 105000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 105000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 110000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 110000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 110000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 115000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 115000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 115000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 120000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 120000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 120000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 125000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 125000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 125000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 130000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 130000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 130000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 135000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 135000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 135000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 140000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 140000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 140000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 145000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 145000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 145000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 150000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 150000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 150000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 155000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 155000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 155000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 160000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 160000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 160000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 165000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 165000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 165000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 170000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 170000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 170000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 175000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 175000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 175000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 180000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 180000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 180000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 185000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 185000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 185000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 190000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 190000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 190000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 195000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 195000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 195000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 200000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 200000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 200000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 205000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 205000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 205000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 210000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 210000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 210000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 215000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 215000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 215000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 220000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 220000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 220000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 225000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 225000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 225000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 230000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 230000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 230000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 235000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 235000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 235000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 240000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 240000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 240000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 245000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 245000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 245000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/runner/testbench.sv(144) @ 250000: uvm_test_top.e.a.m [MON] Data send to Scoreboard a: 12 ,b :  3 , c: 7 , d :  6 , sel :2 ,y :7 
+# KERNEL: UVM_INFO /home/runner/testbench.sv(176) @ 250000: uvm_test_top.e.s [SCO] Data rcvd from Monitor a: 12 ,b: 3 ,c: 7 ,d: 6 ,sel: 2
+# KERNEL: UVM_INFO /home/runner/testbench.sv(185) @ 250000: uvm_test_top.e.s [SCO] Test Passed :Expected: 7, Got: 7
+# KERNEL: UVM_INFO /home/build/vlib1/vlib/uvm-1.2/src/base/uvm_objection.svh(1271) @ 250000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# KERNEL: UVM_INFO /home/build/vlib1/vlib/uvm-1.2/src/base/uvm_report_server.svh(869) @ 250000: reporter [UVM/REPORT/SERVER] 
+# KERNEL: --- UVM Report Summary ---
+# KERNEL: 
+# KERNEL: ** Report counts by severity
+# KERNEL: UVM_INFO :  174
+# KERNEL: UVM_WARNING :    0
+# KERNEL: UVM_ERROR :    0
+# KERNEL: UVM_FATAL :    0
+# KERNEL: ** Report counts by id
+# KERNEL: [DRV]    10
+# KERNEL: [ENV]     1
+# KERNEL: [GEN]    10
+# KERNEL: [MON]    50
+# KERNEL: [RNTST]     1
+# KERNEL: [SCO]   100
+# KERNEL: [TEST_DONE]     1
+# KERNEL: [UVM/RELNOTES]     1
+# KERNEL: 
+# RUNTIME: Info: RUNTIME_0068 uvm_root.svh (521): $finish called.
+# KERNEL: Time: 250 ns,  Iteration: 56,  Instance: /tb,  Process: @INITIAL#310_1@.
+# KERNEL: stopped at time: 250 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finish
